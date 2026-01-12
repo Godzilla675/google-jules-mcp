@@ -1,10 +1,10 @@
 {
-  "name": "@anthropic/google-jules-mcp",
+  "name": "google-jules-mcp",
   "version": "1.0.0",
   "description": "MCP (Model Context Protocol) server for Google Jules AI coding agent API",
   "main": "dist/index.js",
   "bin": {
-    "google-jules-mcp": "./dist/index.js"
+    "google-jules-mcp": "dist/index.js"
   },
   "type": "module",
   "scripts": {
@@ -23,7 +23,7 @@
     "automation",
     "github"
   ],
-  "author": "Ahmed",
+  "author": "Godzilla675",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
@@ -41,10 +41,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anomalyco/google-jules-mcp.git"
+    "url": "git+https://github.com/Godzilla675/google-jules-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/anomalyco/google-jules-mcp/issues"
+    "url": "https://github.com/Godzilla675/google-jules-mcp/issues"
   },
-  "homepage": "https://github.com/anomalyco/google-jules-mcp#readme"
+  "homepage": "https://github.com/Godzilla675/google-jules-mcp#readme"
 }

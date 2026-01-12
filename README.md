@@ -26,13 +26,13 @@ This MCP server exposes all Jules API capabilities:
 ### Using npx (recommended)
 
 ```bash
-npx @anthropic/google-jules-mcp
+npx google-jules-mcp
 ```
 
 ### Global installation
 
 ```bash
-npm install -g @anthropic/google-jules-mcp
+npm install -g google-jules-mcp
 google-jules-mcp
 ```
 
@@ -55,7 +55,7 @@ Add to your MCP client configuration (e.g., Claude Desktop):
   "mcpServers": {
     "google-jules": {
       "command": "npx",
-      "args": ["@anthropic/google-jules-mcp"],
+      "args": ["google-jules-mcp"],
       "env": {
         "GOOGLE_JULES_API_KEY": "your_api_key_here"
       }
