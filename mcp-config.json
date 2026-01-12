@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "google-jules": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": {
+        "GOOGLE_JULES_API_KEY": "AQ.Ab8RN6I7Z_TZfTf_SK9ROqWBGEMla-w8PdNlzkOfWkYgSvHcpQ"
+      }
+    }
+  }
+}
